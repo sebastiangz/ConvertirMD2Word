@@ -1,4 +1,4 @@
-# ConvertirMD2Word - Convierte Markdown a Word para Moodle
+# ConvertirMD2Word - Convierte Markdown a Word para ELinea
 
 Programa especializado para convertir archivos Markdown (.md) a documentos Word (.docx) completamente optimizados para el plugin de importacion de libros de ELINEA (LMS basado en Moodle). Cumple al 100% con las especificaciones del plugin para importacion perfecta sin perdida de informacion.
 
