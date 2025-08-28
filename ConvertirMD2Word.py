@@ -732,7 +732,7 @@ Ejemplos de uso:
         if optimizar_para_moodle:
             print("Listo para importar en Moodle Book!")
             print("\nPasos para importar:")
-            print("   1. Moodle -> Tu curso -> Actividades -> Libro")
+            print("   1. ELinea -> Tu curso -> Actividades -> Libro")
             print("   2. Crear nuevo libro")  
             print("   3. Configuracion -> Importar capitulos")
             print("   4. Subir archivo .docx")
