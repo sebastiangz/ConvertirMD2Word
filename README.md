@@ -461,4 +461,4 @@ El programa reporta automaticamente:
 
 Con este programa, tus archivos Markdown se convierten a documentos Word **perfectamente optimizados** para el plugin de importacion de libros de ELinea (LMS basado en Moodle). No mas problemas de formato, estructura incorrecta o archivos incompatibles.
 
-**Convierte una vez e importa **
+**Convierte una vez e importa**
