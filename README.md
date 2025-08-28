@@ -1,11 +1,11 @@
-# ConvertirMD2Word - Conversor Markdown a Word para Moodle
+# ConvertirMD2Word - Convierte Markdown a Word para Moodle
 
-Programa especializado para convertir archivos Markdown (.md) a documentos Word (.docx) completamente optimizados para el plugin de importacion de libros de Moodle. Cumple al 100% con las especificaciones del plugin para importacion perfecta sin perdida de informacion.
+Programa especializado para convertir archivos Markdown (.md) a documentos Word (.docx) completamente optimizados para el plugin de importacion de libros de ELINEA (LMS basado en Moodle). Cumple al 100% con las especificaciones del plugin para importacion perfecta sin perdida de informacion.
 
 ## Optimizado para Plugin de Importacion de Libros de Moodle
 
 ### Cumple TODOS los Requerimientos del Plugin:
-- **Formato .docx**: Compatible con Moodle 2.7 o superior
+- **Formato .docx**: Compatible con Moodle 4.4.6 o superior
 - **Estructura de capitulos**: Usa Heading 1 y Heading 2 de Word nativamente
 - **Imagenes embebidas**: Formato web-compatible (GIF, PNG, JPEG)
 - **Sin macros**: Archivos .docx puros (no .docm)
@@ -370,7 +370,7 @@ Despues: "Programacion funcional con  y "
 - [ ] Validacion muestra estructura esperada
 
 ### Al Importar en Moodle:
-- [ ] Moodle 2.7 o superior
+- [ ] Moodle 4.4.6 o superior
 - [ ] PHP XSL extension habilitada en el servidor
 - [ ] Plugin Book Import instalado y activo
 
@@ -454,8 +454,8 @@ El programa reporta automaticamente:
 - `requirements.txt` - Lista completa de dependencias (incluye chardet, ftfy, unidecode)
 
 ### Archivos de Prueba (incluidos):
-- `test_moodle.md` - Archivo Markdown de ejemplo
-- `test_output.docx` - Resultado esperado
+- `README.md` - Archivo Markdown de ejemplo
+- `README.docx` - Resultado esperado
 
 ## Listo para Moodle
 
