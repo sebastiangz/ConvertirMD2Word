@@ -1,11 +1,11 @@
-# ConvertirMD2Word - Convierte Markdown a Word para ELinea
+# ConvertirMD2Word - Conversor Markdown a Word para ELINEA (LMS basado en Moodle)
 
-Programa especializado para convertir archivos Markdown (.md) a documentos Word (.docx) completamente optimizados para el plugin de importacion de libros de ELINEA (LMS basado en Moodle). Cumple al 100% con las especificaciones del plugin para importacion perfecta sin perdida de informacion.
+Programa especializado para convertir archivos Markdown (.md) a documentos Word (.docx) completamente optimizados para el plugin de importacion de libros de Moodle. Cumple al 100% con las especificaciones del plugin para importacion perfecta sin perdida de informacion.
 
 ## Optimizado para Plugin de Importacion de Libros de Moodle
 
 ### Cumple TODOS los Requerimientos del Plugin:
-- **Formato .docx**: Compatible con Moodle 4.4.6 o superior
+- **Formato .docx**: Compatible con Moodle 2.7 o superior
 - **Estructura de capitulos**: Usa Heading 1 y Heading 2 de Word nativamente
 - **Imagenes embebidas**: Formato web-compatible (GIF, PNG, JPEG)
 - **Sin macros**: Archivos .docx puros (no .docm)
@@ -97,7 +97,7 @@ pip3 install pypandoc python-docx lxml pillow chardet ftfy unidecode
 
 ```bash
 # Instalar Homebrew si no esta instalado
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://github.com/sebastiangz/ConvertirMD2Word/HEAD/install.sh)"
 
 # Instalar dependencias
 brew install python pandoc
@@ -370,7 +370,7 @@ Despues: "Programacion funcional con  y "
 - [ ] Validacion muestra estructura esperada
 
 ### Al Importar en Moodle:
-- [ ] Moodle 4.4.6 o superior
+- [ ] Moodle 2.7 o superior
 - [ ] PHP XSL extension habilitada en el servidor
 - [ ] Plugin Book Import instalado y activo
 
@@ -457,8 +457,8 @@ El programa reporta automaticamente:
 - `README.md` - Archivo Markdown de ejemplo
 - `README.docx` - Resultado esperado
 
-## Listo para Moodle
+## Listo para ELinea
 
-Con este programa, tus archivos Markdown se convierten a documentos Word **perfectamente optimizados** para el plugin de importacion de libros de Moodle. No mas problemas de formato, estructura incorrecta o archivos incompatibles.
+Con este programa, tus archivos Markdown se convierten a documentos Word **perfectamente optimizados** para el plugin de importacion de libros de ELinea (LMS basado en Moodle). No mas problemas de formato, estructura incorrecta o archivos incompatibles.
 
-**Convierte una vez, importa perfecto**
+**Convierte una vez e importa **
